@@ -5,10 +5,10 @@
         <!-- <v-img src="@/assets/classroom.jpg" height="800"> </v-img> -->
         <v-card elevation="2" outlined overlay img="@/assets/classroom.jpg">
           <v-card-title class="justify-center">
-            <h1>Classroom ocupation</h1>
+            <h1>Classroom Occupation</h1>
           </v-card-title>
           <v-card-subtitle class="text-center mt-1"
-            >This is a means of showing if the classroom is occupied or free
+            >This is a means of showing if the classroom is occupied or has free
             seats</v-card-subtitle
           >
           <v-divider class="ml-16 mr-16"></v-divider>
@@ -86,7 +86,7 @@ export default {
       // Certification Information
     },
     subscription: {
-      topic: "flixusstest",
+      topic: "SensorTile",
       qos: 0,
     },
     publish: {
